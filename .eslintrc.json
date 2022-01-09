@@ -1,3 +1,26 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "no_unused_vars": "off",
+    "@next/next/no-img-element-in-head": "off",
+    "@next/next/no-img-element": "off",
+    "semi": [
+      2,
+      "never"
+    ],
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "indent": [
+      "error",
+      2
+    ]
+  }
 }
